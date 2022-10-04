@@ -17,3 +17,7 @@ Make sure code is readable, presented nicely, and use comments to describe your 
 
 Also make sure to add a ReadME.md to explain how to get the results I get.
 
+Step #1: Make sure to install BeautifulSoup via typing "pip install BeautifulSoup4" on your terminal line
+Issue: This was incredibly finiky for me due to me installing python via windows shop, this is good for using VSCode however it causes issues with the library being used globally which caused certain errors for me.
+
+Step #2: 
