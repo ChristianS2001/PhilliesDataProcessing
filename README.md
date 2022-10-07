@@ -8,6 +8,8 @@ Issue: This was incredibly finiky for me due to me installing python via windows
 
 Step #2: Download the dataProcessing.py, philliesDataWebPage.html (if you want to parse from file), and a way to run python code (via IDE or terminal with python installed) or you can download the entire github repo as a zipped folder with the link I provided.
 
+GitHub Repository Link: https://github.com/ChristianS2001/PhilliesDataProcessing
+
 Step #3: Make sure you are either scrapping the info from the webpage or the html file (there is a command present in code to use from file, just uncomment the source = filereader, and comment out the source = bs(html.parser)) |this is done near lines 8 and 9|.
 
 Step #4: This is not really a step more rather me telling you that the finalResult variable is the actual float with qualifying offer price, what is being printed is actually just a formatted string for better presentation. |this is in reference to lines 109 and 131|.
