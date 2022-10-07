@@ -1,0 +1,14 @@
+Part A Answer:
+
+A. The code I would use to validate if the string is a palindrome is this:
+
+class Solution(object):
+    def isPalindrome(self, s):
+        s = ''.join(e for e in s if e.isalnum()).lower() #making it so string s is replacing all non letter char's into nothing then lowercasing the ones that are letter chars
+        return s==s[::-1] #[::-1] starts at the end of a string and moves back, this is returning the BOOL of if S from start the finish, and S from finish to start = eachother
+
+This code is an improvement in my opinion because it is shorter and more scalable. We are using library functions from the Python language and on top of that we make use of Python
+functionality with the return statement. Since the algorithm will be used or copied and rarely modified for it's task I find a shorter implementation is always better, and a programmer
+should always take advantage of a languages functionality. This runtime is also faster, however we do sacrifice space-time complexitiy here since we use .isalnum() and .lower(). If we
+wanted to not waste space we would implement a version using a left and right pointer and not build a string to check, rather check the characters themselves.
+
